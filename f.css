@@ -1,0 +1,73 @@
+body {
+	/*background-color: #0e254e;*/
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 20%, rgba(5,106,185,1) 61%, rgba(153,6,168,1) 100%);
+	color: white;
+	font-family: "Tektur", sans-serif;
+}
+#baner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	background-image: url('zdj/baner.jpg');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 2.5em;
+	text-shadow: 5px 5px 10px black;
+}
+h1 {
+	display: table-cell;
+	width: 100vw;
+	height: 200px;
+	vertical-align: middle;
+}
+#content {
+	position: absolute;
+	top: 200px;
+	left: 15%;
+	width: 70%;
+	height: 800px;
+	text-align: center;
+}
+#formula {
+	width: 300px;
+	height: 5%;
+	font-size: 1.5em;
+	font-family: "Arial";
+	border-radius: 8px;
+}
+button {
+	width: 8%;
+	min-width: 65px;
+	height: 5%;
+	background-color: #ffc44c;
+	border-radius: 8px;
+	font-size: 1em;
+	font-family: "Tektur", sans-serif;
+}
+.other {
+	font-size: 1.2em;
+}
+#graph {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 700px;
+	height: 700px;
+	background-color: gray;
+	background-image: url('zdj/graph.png');
+	background-size: 700px;
+	background-repeat: no-repeat;
+}
+.points {
+	position: absolute;
+	width: 4px;
+	height: 4px;
+	background-color: red;
+	border-radius: 5px;
+	transform: translate(-100%, 100%);
+}
